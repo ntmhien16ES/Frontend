@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style-signup.css">
+    <script src="valid-info.js"></script>
+</head>
+<body>
+    <div class="signup">
+        <div class="logo">
+            <h1 class="logotext">SIGN UP</h1>
+        </div>
+        
+        <div class="info">
+            <span  class="popup popup-first-name"  id="popupFirstName">What's your name?</span><br>
+            <input class="textbox first-name" type="text"  placeholder="First name" id="txtFirstName">
+            <input class="textbox family-name" type="text" placeholder="Family name" id="txtFamilyName">
+            <span  class="popup popup-family-name"    id="popupFamilyName">What's your name?</span><br>
+            
+            
+            <!-- <span class="popuptxtFirstname">What's your name?</span> -->
+            
+            <input class="textbox" type="text"     placeholder="Your email"      id="txtEmail">
+            <span class="popup popup-email" id="popupEmail">
+                You'll use this when you log in and if you ever need
+                to reset your password.
+            </span>
+            <span class="popup popup-email popup-error" id="popupEmailError">
+                Please enter a valid email address.
+            </span>
+            <br>
+            <input class="textbox" type="password" placeholder="Your password"   id=txtPass>
+            <span class="popup popup-pass" id="popupPass">
+                Enter a combination of at least six numbers, letters and
+                punctuation marks (such as ! and &).
+            </span>
+            <span class="popup popup-pass popup-error" id="popupPassError">Please enter a valid password
+                of at least 6 numbers, letters and punctuation marks.
+            </span>
+            <br>
+            <input class="textbox" type="password" placeholder="Retype password" id="txtRetypePass">
+            <span class="popup popup-retype" id="popupRetype">Retype your password here.</span>
+            <span class="popup popup-retype popup-error" id="popupRetypeError">Password retype mismatch.</span>
+        </div>
+        
+        <p>Date of birth</p>
+        <select name="sltDate" id="sltDate"></select>
+        <select name="sltMonth" id="sltMonth"></select>
+        <select name="sltYear" id="sltYear"></select><br>
+        <p>Gender</p>
+        <form action="">
+            <input type="radio" name="ckbGender" value="female" onchange="radioButtonHandler(this.value)" checked="checked">
+            <label for="ckbGender">Female</label>
+            <input type="radio" name="ckbGender" value="male" onchange="radioButtonHandler(this.value)">
+            <label for="ckbGender">Male</label>
+            <input type="radio" name="ckbGender" value="others" onchange="radioButtonHandler(this.value)">
+            <label for="ckbGender">Others</label><br><br>
+        </form>
+        <input class="button" type="button" value="SIGN UP" id="btnSignUp">
+        <script src="SignUp.js"></script>
+    </div>
+    
+    
+</body>
+</html>

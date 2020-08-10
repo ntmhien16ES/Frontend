@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #eff3f5, #bfd4c8);
+}
+.signup{
+    /* margin: 0 auto; */
+    /* width: ; */
+    width: 100%;
+    margin-left: 6%;
+    margin-right: 50%;  
+
+}
+.logo{
+    /* border: 5px; */
+    height: 40px;
+}
+.logotext{
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popup {
+    margin-left: 6%;
+    margin-right: 50%;
+    visibility: hidden;
+    cursor: pointer;
+    background-color: #555;
+    color: #fff;
+    text-align: left;
+    border-radius: 4px;
+    position: absolute;
+    font-size: small;
+    left: 268px;
+}
+.popup::after{
+    content: "";
+    position: absolute;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent ;
+}
+
+
+.popup-error{
+    visibility: hidden;
+    background-color: rgba(160, 12, 12, 0.705);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(253, 19, 19);
+}
+.popup-error::after{
+    border-color: transparent rgba(160, 12, 12, 0.705) transparent transparent;
+}
+
+
+.show{
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.text-error{
+    /* border-top-width: 1px; */
+    /* border-bottom-width: 1px; */
+    /* border-width: 1px;
+    border-radius: 4px;
+    padding-left: 11px;
+    padding-right: 9px;
+    height: 23px;
+    width: 239px;
+    border-style: solid; */
+    border-radius: 4px;
+    border-style: solid;
+    border-color: crimson;
+    /* box-sizing: content-box; */
+}
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+@keyframes fadeIn {
+from {opacity: 0;}
+to {opacity:1 ;}
+}
+
+
+input[type=text], input[type=password]{
+    padding: 6px 10px;
+    margin: 6px 0;
+    display: inline-block;
+    /* border: 1px #ccc; */
+    /* border-radius: 4px; */
+    /* box-sizing: border-box; */
+}
+.button{
+    width: 265px;
+    height: 45px;
+    font-size: 23px;
+    text-align: center;
+    border-style: groove;
+    border-color: rgb(205, 243, 230);
+    border-radius: 30px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}

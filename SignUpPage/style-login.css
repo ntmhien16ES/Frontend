@@ -1,0 +1,20 @@
+.popup-email{
+    width: 340px;
+    padding: 8px 8px;
+    top: 68px;
+}
+.popup-email::after{
+    top: 22%;
+    left: -3.5%;    
+}
+
+/* Style for password and retype popup */
+.popup-pass{
+    width: 318px;
+    padding: 8px 8px;
+    top: 119px;
+}
+.popup-pass::after{
+    top: 22%;
+    left: -3.5%;
+}

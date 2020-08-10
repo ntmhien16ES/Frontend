@@ -1,0 +1,70 @@
+/* Style for textbox */
+.first-name, .family-name{
+    width: 95px;
+    /* border-color: #555; */
+    /* padding: 12px 20px; */
+    /* margin: 8px 0; */
+    /* display: inline-block; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 4px; */
+    /* box-sizing: border-box; */
+}
+
+/* Style for First name popup */
+.popup-first-name{
+    /* visibility: hidden; */
+    width: 160px;
+    padding: 8px 0px;
+    text-align: center;
+    top: 48px;
+    left: 0px;
+}
+.popup-first-name::after{   
+    top: 100%;
+    left: 15%;
+    border-color:#555 transparent transparent transparent ;
+}
+
+/* Style for Family name popup */
+.popup-family-name{
+    width: 160px;
+    padding: 8px 0px;
+    top: 89px;
+    text-align: center;
+}
+.popup-family-name::after{
+    top: 30%;
+    left: -7.5%;
+}
+
+/* Style for Email popup */
+.popup-email{
+    width: 340px;
+    padding: 8px 8px;
+    top: 138px;
+}
+.popup-email::after{
+    top: 22%;
+    left: -3.5%;    
+}
+
+/* Style for password and retype popup */
+.popup-pass{
+    width: 318px;
+    padding: 8px 8px;
+    top: 188px;
+}
+.popup-pass::after{
+    top: 22%;
+    left: -3.5%;
+}
+.popup-retype{
+    width: 200px;
+    padding: 8px 8px;
+    text-align: center;
+    top: 240.5px;
+}
+.popup-retype::after{
+    top: 30%;
+    left: -5.5%;
+}
