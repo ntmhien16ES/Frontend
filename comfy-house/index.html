@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a0bab3d68b.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-center">
+                <span class="nav-icon">
+                    <i class="fa fa-bars"></i>
+                </span>
+                <img src="./images/logo.svg" alt="store logo">
+                <div class="cart-btn">
+                    <span class="nav-icon">
+                        <i class="fa fa-shopping-cart"></i>
+                    </span>
+                    <div class="cart-items">0</div>
+                </div>
+                
+            </div>
+        </nav>
+        <!-- end of navbar -->
+        <!-- hero -->
+        <header class="hero">
+            <div class="banner">
+                <h1 class="banner-title">furniture collection</h1>
+            <a href="#">
+                <button class="banner-btn">shop now</button>
+            </a>
+            </div>
+        </header>
+        <!-- end of hero -->
+        <!-- products -->
+        <section class="products" id="id-product">
+            <div class="section-title" >
+                <h2>our products</h2>
+            </div>
+            <div class="products-center">
+                
+            </div>
+            <!-- cart -->
+            <div class="cart-overlay">
+                <div class="cart">
+                    <span class="close-cart">
+                        <i class="fas fa-window-close"></i>
+                    </span>
+                    <h2> your cart</h2>
+    
+                    <div class="cart-content">
+                        <!-- cart item -->
+                        <!-- <div class="cart-items">
+                            
+                        </div> -->
+                        <!-- end of cart item -->
+                        
+                    </div>
+                    <div class="cart-footer">
+                        <h3>your total : $ <span class="cart-total">0</span></h3>
+                        <button class="clear-cart banner-btn">clear cart</button>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- end of cart -->
+        </section>
+        <!-- end of products -->
+    </div>
+    
+    <!-- contentful -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!-- app js -->
+    <script src="app.js"></script>
+</body>
+</html>
