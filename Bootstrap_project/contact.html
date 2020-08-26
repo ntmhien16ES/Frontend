@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <!-- Bootstap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="header__contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 header__contact--media">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-google-plus-g"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                    <div class="col-6 header__contact--phone">
+                        <i class="fa fa-phone"></i>
+                        <span>+021 365 777</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="#">M<span>ERGED</span></a>
+
+                    <!-- Toggler button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!--  Navbar Links -->
+                    <div class="collapse navbar-collapse navbar-collapse--confix mt-3" id="navMenu">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">GALLERY</a>
+                            </li>
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">PAGE</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Codes</a>
+                                    <a class="dropdown-item" href="about.html">about</a>
+                                </div>
+                            </li>
+                            <!-- End Dropdown -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- BANNER -->
+    <section class="banner">
+        <img src="./images/b1_contact.jpg" alt="">
+    </section>
+    <!-- CONTACT -->
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 contact__header">
+                    <h2 class="title-black">Contact</h2>
+                    <p>Our team provides consulting services focusing on the most critical business issues.</p>
+                </div>
+            </div>
+            <div class="row contact_content">
+                <div class="col-12 col-lg-8 contact__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.5989894523846!2d108.18632771433634!3d16.034377444631208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219779607e02f%3A0xeb1c63c9aece6cfc!2zMTcxIFRy4bqnbiBUaMOhaSBUw7RuZywgQW4gS2jDqiwgVGhhbmggS2jDqiwgxJDDoCBO4bq1bmcsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1598448090996!5m2!1svi!2s"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-12 col-lg-4 ">
+                    <div class="col-12 contact__address mt-3 mt-lg-0">
+                        <h3>OFFICE 1</h3>
+                        <p>435 City hall,<br>Da Nang City 5500.</p>
+                    </div>
+                    <div class="col-12 contact__address my-3">
+                        <h3>OFFICE 2</h3>
+                        <p>435 City hall,<br>Da Nang City 5500.</p>
+                    </div>
+                    <div class="col-12 contact__address">
+                        <h3>OFFICE 3</h3>
+                        <p>435 City hall,<br>Da Nang City 5500.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- MESSAGE -->
+    <section class="message">
+        <div class="container">
+            <div class="row">
+                <h2 class="col-12 title-black mb-5">Send Us a Message</h2>
+            </div>
+            <div class="row message__form">
+                <div class="col-12 col-md-6  message__form-input">
+                    <input class=" form-control " type="text" placeholder="Name">
+                </div>
+                <div class="col-12 col-md-6 message__form-input">
+                    <input class="form-control" type="email" placeholder="Email">
+                </div>
+                <div class="col-12 message__form-input">
+                    <input type="text" class=" form-control" placeholder="Subject">
+                </div>
+                <div class="col-12 message__form-input">
+                    <textarea class="form-control" cols="30" rows="10" placeholder="Your comment here..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-confix btn-purple">SUBMIT</button>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer__contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 footer__contact-email">
+                        <h3>Subscribe Newsletter</h3>
+                        <p>By subscribing to our mailing list you will always get latest news from us.</p>
+                        <div class="input-group">
+                            <input class="form-control" type="email" placeholder="Enter your email...">
+                            <div class="input-group-prepend">
+                                <button type="submit" class="btn"><i class="far fa-envelope"></i></button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-12 col-sm-5 col-md-3 footer__contact-link">
+                        <h3>Our Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-7 col-md-4 footer__contact-address">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li>
+                                <i class="fa fa-map-marker"></i>
+                                <span>1234k Avenue, 4th block, New York City.</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope"></i>
+                                <a href="mailto:info@example.com">info@example.com</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <span>+1234 567 567</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p>© 2020 Merged. All Rights Reserved | Design by <a
+                    href="https://www.facebook.com/profile.php?id=100007745858673">Hien Nguyen</a></p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
