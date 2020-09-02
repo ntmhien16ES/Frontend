@@ -1,0 +1,93 @@
+.guides {
+    max-width: 90%;
+    margin: 0 auto 120px;
+    .guides__content {
+        position: relative;
+        h4 {
+            @extend %sectionTitle;
+        }
+        .guides__item {
+            padding: 0 12px;
+            a {
+                color: $color-gray-2;
+                text-decoration: none;
+                img {
+                    width: 100%;
+                    padding-bottom: 10px;
+                    transition: all .3s ease-in-out;
+                    &:hover {
+                        opacity: .85;    
+                    }
+                }
+                .guides__item-caption {
+                    padding-top: 6px;
+                    h6 {
+                        font-size: 18px;
+                        padding-bottom: 2px;
+                        margin: 0;
+                    }
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .seeMore {
+            position: absolute;
+            top: 20px;
+            right: 0;
+            text-decoration: none;
+            color: #4a73e8;
+            &:hover {
+                color: #4a73e8;
+            }
+        }
+    }
+    @include responsive("extra-large") {
+        width: 92%;
+    }
+    @include responsive("large") {
+        width: 95%;
+        margin-bottom: 80px;
+    }
+    @include responsive("big-medium") {
+        .guides__content {
+            position: relative;
+            .guides__item {
+                padding: 0;
+                margin: 12px 0;
+                a {
+                    color: $color-gray-2;
+                    text-decoration: none;
+                    img {
+                        width: 100%;
+                        padding-bottom: 10px;
+                        transition: all .3s ease-in-out;
+                        &:hover {
+                            opacity: .85;    
+                        }
+                    }
+                    .guides__item-caption {
+                        padding-top: 6px;
+                        h6 {
+                            font-size: 18px;
+                            padding-bottom: 2px;
+                            margin: 0;
+                        }
+                        p {
+                            margin: 0;
+                            padding-bottom: 15px;
+                        }
+                    }
+                }
+            }
+    
+            .seeMore {
+                top: auto;
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+}

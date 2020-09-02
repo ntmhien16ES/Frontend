@@ -1,0 +1,26 @@
+.button--green {
+   @include styleButton($color-white,$color-green-1,transparent, $fs-1 - 1, $fw-1, $pd-1, $pd-2);
+    line-height: 100%;
+    transition: .15s ease-in-out;
+    &:hover {
+        background-color: $color-green-0;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.button--transparent_green {
+    @include styleButton($color-green-2,transparent,$color-green-2, 16px, 600, 12px, 24px);
+    line-height: 100%;
+    border-radius: 4px;
+    transition: .15s ease-in-out;
+    
+    &:hover {
+        background-color: $color-green-2;
+        color: $color-white !important;
+    }
+    &:focus {
+        outline: none;
+    }
+}

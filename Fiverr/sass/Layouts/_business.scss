@@ -1,0 +1,40 @@
+.business {
+    width: 90%;
+    margin: 0 auto 120px;
+    .business__content {
+        .business__left {
+            h4 {
+                @extend %sectionTitle;
+            }
+            .business__left--content {
+                padding-bottom: 24px;
+                
+                h5 {
+                    font-size: 18px;
+                    padding-bottom: 4px;
+                    margin: 0;
+                    color: $color-gray-2;
+                    img {
+                        padding-right: 10px;
+                    }
+                }
+                p {
+                    margin: 0;
+                    max-width: 536px;
+                }
+            }
+        }
+        .business__right{
+            img {
+                width: 100%;
+            }
+        }
+    }
+    @include responsive("extra-large") {
+        width: 92%;
+      }
+    @include responsive("large") {
+    width: 95%;
+    margin-bottom: 80px;
+    }
+}

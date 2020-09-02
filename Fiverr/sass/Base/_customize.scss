@@ -1,0 +1,219 @@
+.header__carousel {
+    .carousel__img{
+        .owl-theme{
+            .owl-nav.disabled+.owl-dots {
+                display: none;
+            }
+        }
+    }
+}
+
+.services {
+    .owl-theme{
+        position: relative;
+        .item {
+            height: 300px;
+        }
+        .owl-dots {
+            display: none;
+        }
+        .owl-nav {
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            [class*=owl-] {
+                color: $color-gray-2;
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+            button.owl-prev {
+                transform: translateX(-60%);
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+                outline: none;
+                &:hover {
+                    background-color: white;
+                }
+                span {
+                    position: absolute;
+                    top: 7px;
+                    left: 16px;
+                    outline: none;
+                }
+                
+            }
+            button.owl-next {
+                transform: translateX(60%);
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+                outline: none;
+                &:hover {
+                    background-color: white;
+                }
+                span {
+                    position: absolute;
+                    top: 7px;
+                    left: 16px;
+                    outline: none;
+                }
+            }
+        }
+    } 
+
+}
+
+
+.projects {
+    .owl-theme{
+        position: relative;
+        .item {
+            height: auto;
+        }
+        .owl-dots {
+            display: none;
+        }
+        .owl-nav {
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            [class*=owl-] {
+                color: $color-gray-2;
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+            button.owl-prev {
+                transform: translateX(-60%);
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+                outline: none;
+                &:hover {
+                    background-color: white;
+                }
+                span {
+                    position: absolute;
+                    top: 7px;
+                    left: 16px;
+                    outline: none;
+                }
+                
+            }
+            button.owl-next {
+                transform: translateX(60%);
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+                outline: none;
+                &:hover {
+                    background-color: white;
+                }
+                span {
+                    position: absolute;
+                    top: 7px;
+                    left: 16px;
+                    outline: none;
+                }
+            }
+        }
+    } 
+}
+
+.feedbacks {
+    .owl-theme{
+        position: relative;
+        .item {
+            height: auto;
+        }
+        .owl-dots {
+            display: none;
+        }
+        .owl-nav {
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            [class*=owl-] {
+                color: $color-gray-2;
+                &:hover {
+                    background-color: transparent;
+                }
+            }
+            button.owl-prev {
+                transform: translateX(-60%);
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+                outline: none;
+                &:hover {
+                    background-color: white;
+                }
+                span {
+                    position: absolute;
+                    top: 7px;
+                    left: 16px;
+                    outline: none;
+                }
+                
+            }
+            button.owl-next {
+                transform: translateX(60%);
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: white;
+                position: relative;
+                box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+                outline: none;
+                &:hover {
+                    background-color: white;
+                }
+                span {
+                    position: absolute;
+                    top: 7px;
+                    left: 16px;
+                    outline: none;
+                }
+            }
+        }
+    } 
+}
+// .owl-theme .owl-nav [class*=owl-]:hover

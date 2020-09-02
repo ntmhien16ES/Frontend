@@ -1,0 +1,22 @@
+.brand {
+  text-align: center;
+  height: 60px;
+  box-shadow: 0px 1px 6px 1px $color-gray-6;
+  margin-bottom: $mg-1;
+  img {
+    padding: 0 30px;
+  }
+  @include responsive("large") {
+    img {
+        padding: 0 16px;
+
+      }
+  }
+  @include responsive("medium") {
+    img {
+        width: 70px;
+        padding: 0 12px;
+
+      }
+  }
+}

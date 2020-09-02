@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiverr - Freelance Services Marketplace for Businesses</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
+    <!-- Owl carousel css -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+
+    <!-- fancybox CSS -->
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" type="text/css" media="screen" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <!-- HEADER TOP-->
+        <div class="header__top">
+            <div class="container-fluid">
+                <div class="header__content">
+                    <nav class="navbar navbar-expand-lg navbar-light my-nav">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a href="#" class="navbar-brand header__logo">
+                            <img src="./img/fiverr-vector-logo.svg" alt="logo" />
+                        </a>
+                        <form class="form-inline my-2 my-lg-0 header__top-form">
+                            <i class="fa fa-search"></i>
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <button class="button--green my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                        <div class="collapse navbar-collapse" id="navbarToggler">
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                <li class="nav-item nav-item-business">
+                                    <a class="nav-link" href="#">Fiverr Business</a>
+                                </li>
+                                <li class="nav-item nav-item-english">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa fa-globe"></i>
+                                        English
+                                    </a>
+                                </li>
+                                <li class="nav-item nav-item-usd">
+                                    <a class="nav-link" href="#">$USD</a>
+                                </li>
+                                <li class="nav-item nav-item-seller">
+                                    <a class="nav-link" href="#">Become a Seller</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sign In</a>
+                                </li>
+                                <li class="nav-item pr-0">
+                                    <a class="nav-link join btn-gray" href="#">Join</a>
+                                </li>
+                            </ul>
+            
+                        </div>
+            
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- HEADER BOTTOM -->
+        <div class="header__bottom">
+            <div class="header__bottom-content container-fluid">
+                <ul>
+                    <li>Graphics & Design</li>
+                    <li>Digital Marketing</li>
+                    <li>Writing & Translation</li>
+                    <li>Video & Animation</li>
+                    <li>Music & Audio</li>
+                    <li>Programming & Tech</li>
+                    <li>Business</li>
+                    <li>Lifestyle</li>
+                    <li>Industries</li>
+                </ul>
+            </div>
+        </div>
+        <!-- HEADER CAROUSEL -->
+        <div class="header__carousel">
+            <div class="carousel__content">
+                <h3>Find the perfect freelance services for your business</h3>
+                <div class="carousel__search">
+                    <form class="search__form">
+                        <i class="fa fa-search"></i>
+                        <input type="search" placeholder="Try building mobile app" />
+                        <button class="button--green">Search</button>
+                    </form>
+                </div>
+                <div class="carousel__tag">
+                    <span>Popular:</span>
+                    <a
+                        href="https://www.fiverr.com/categories/programming-tech/web-cms-services?source=hplo_search_tag&pos=1&name=web-cms-services">Website
+                        Building</a>
+                    <a
+                        href="https://www.fiverr.com/categories/programming-tech/wordpress-services?source=hplo_search_tag&pos=2&name=wordpress-services">WordPress</a>
+                    <a
+                        href="https://www.fiverr.com/categories/graphics-design/creative-logo-design?source=hplo_search_tag&pos=3&name=creative-logo-design">Logo
+                        Design</a>
+                    <a
+                        href="https://www.fiverr.com/stores/dropshipping?source=hplo_search_tag&pos=4&name=dropshipping">Dropshipping</a>
+                </div>
+            </div>
+            <div class="carousel__shape"></div>
+
+            <div class="carousel__img">
+                <div class="owl-carousel owl-theme">
+                    <div class="item carousel__img-item">
+                        <img src="./img/900-darren2x.png" alt="darren" />;
+                        <div class="carousel__img--caption">
+                            <div class="carousel__img--star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Darren,<b> Designer and Animator</b></p>
+                        </div>
+                    </div>
+
+                    <div class="item carousel__img-item">
+                        <img src="./img/900-matthew2x.png" alt="matthew2x" />;
+                        <div class="carousel__img--caption">
+                            <div class="carousel__img--star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Matthew,<b> Designer and Animator</b></p>
+                        </div>
+                    </div>
+
+                    <div class="item carousel__img-item">
+                        <img src="./img/900-melissa2x.png" alt="melissa2x" />;
+                        <div class="carousel__img--caption">
+                            <div class="carousel__img--star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Melissa,<b> Designer and Animator</b></p>
+                        </div>
+                    </div>
+
+                    <div class="item carousel__img-item">
+                        <img src="./img/900-nichelle2x.png" alt="nichelle2x" />;
+                        <div class="carousel__img--caption">
+                            <div class="carousel__img--star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Nichelle,<b> Designer and Animator</b></p>
+                        </div>
+                    </div>
+
+                    <div class="item carousel__img-item">
+                        <img src="./img/900-sharon2x.png" alt="sharon2x" />;
+                        <div class="carousel__img--caption">
+                            <div class="carousel__img--star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Sharon,<b> Designer and Animator</b></p>
+                        </div>
+                    </div>
+
+                    <div class="item carousel__img-item">
+                        <img src="./img/900-tobee2x.png" alt="tobee2x" />;
+                        <div class="carousel__img--caption">
+                            <div class="carousel__img--star">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Tobee,<b> Designer and Animator</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+
+        </div>
+    </header>
+
+    <!-- BRAND -->
+    <section class="brand">
+        <div class="container-fluid brand__content">
+            <img src="./img/facebook.a1eeefc.png" alt="facebook" />
+            <img src="./img/google.517da09.png" alt="google" />
+            <img src="./img/netflix.e3ad953.png" alt="netflix" />
+            <img src="./img/pandg.8b7310b.png" alt="pandg" />
+            <img src="./img/paypal.ec56157.png" alt="paypal" />
+            <img src="./img/intuit.6e468f0.png" alt="intuit" />
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services">
+        <div class="container-fluid">
+            <h4 class="section__title">Popular professional services</h4>
+            <div class="owl-carousel owl-theme">
+                <div class="item services__item">
+                    <a href="https://www.fiverr.com/categories/graphics-design/creative-logo-design?source=hplo_subcat_first_step&pos=1"
+                        target="_blank">
+                        <img src="./img/logodesign@2x.jpg" alt="logodesign" />
+                        <div class="services__item-content">
+                            <p>Build Your Brand</p>
+                            <h5>Logo Design</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="item services__item">
+                    <a href="https://www.fiverr.com/categories/programming-tech/wordpress-services?source=hplo_subcat_first_step&pos=2"
+                        target="_blank">
+                        <img src="./img/wordpress@2x.jpg" alt="wordpress" />
+                        <div class="services__item-content">
+                            <p>Customize your site</p>
+                            <h5>Wordpress</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="item services__item">
+                    <a href="https://www.fiverr.com/categories/music-audio/voice-overs?source=hplo_subcat_first_step&pos=3"
+                        target="_blank">
+                        <img src="./img/voiceover@2x.jpg" alt="voiceover" />
+                        <div class="services__item-content">
+                            <p>Share your message</p>
+                            <h5>Voice Over</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="item services__item">
+                    <a href="https://www.fiverr.com/categories/video-animation/whiteboard-explainer-videos?source=hplo_subcat_first_step&pos=4"
+                        target="_blank">
+                        <img src="./img/whiteboard@2x.jpg" alt="whiteboard" />
+                        <div class="services__item-content">
+                            <p>Engage your audience</p>
+                            <h5>Whiteboard</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="item services__item">
+                    <a href="https://www.fiverr.com/categories/online-marketing/social-marketing?source=hplo_subcat_first_step&pos=5"
+                        target="_blank">
+                        <img src="./img/social@2x.jpg" alt="social" />
+                        <div class="services__item-content">
+                            <p>Reach more customers</p>
+                            <h5>Social Media</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="item services__item">
+                    <a href="https://www.fiverr.com/categories/online-marketing/seo-services?source=hplo_subcat_first_step&pos=6"
+                        target="_blank">
+                        <img src="./img/seo@2x.jpg" alt="seo" />
+                        <div class="services__item-content">
+                            <p>Unlock growth online</p>
+                            <h5>SEO</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="item services__item">
+                    <a href="https://www.fiverr.com/categories/graphics-design/digital-illustration?source=hplo_subcat_first_step&pos=7"
+                        target="_blank">
+                        <img src="./img/illustration2x.jpg" alt="illustration2x" />
+                        <div class="services__item-content">
+                            <p>Color your dreams</p>
+                            <h5>Illustration</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="item services__item">
+                    <a href="https://www.fiverr.com/categories/writing-translation/quality-translation-services?source=hplo_subcat_first_step&pos=8"
+                        target="_blank">
+                        <img src="./img/translation2x.jpg" alt="translation2x" />
+                        <div class="services__item-content">
+                            <p>Go global</p>
+                            <h5>Translation</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="item services__item">
+                    <a href="https://www.fiverr.com/categories/business/data-entry?source=hplo_subcat_first_step&pos=9"
+                        target="_blank">
+                        <img src="./img/data-entry2x.jpg" alt="data-entry" />
+                        <div class="services__item-content">
+                            <p>Learn your business</p>
+                            <h5>Data Entry</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="item services__item">
+                    <a href="https://www.fiverr.com/categories/graphics-design/book-design/cover" target="_blank">
+                        <img src="./img/books2x.jpg" alt="books2x" />
+                        <div class="services__item-content">
+                            <p>Showcase your story</p>
+                            <h5>Book Covers</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- WORD -->
+    <section class="work">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="work__left">
+                        <h4>Get work done faster, with confidence</h4>
+                        <div class="work__left--content">
+                            <h5>
+                                <img src="./img/checkmark.0c8e7a1.svg" alt="checkmark" />
+                                Payment protection, guaranteed
+                            </h5>
+                            <p>
+                                Payment is released to the freelancer once you’re pleased and
+                                approve the work you get.
+                            </p>
+                        </div>
+                        <div class="work__left--content">
+                            <h5>
+                                <img src="./img/checkmark.0c8e7a1.svg" alt="checkmark" />
+                                Payment protection, guaranteed
+                            </h5>
+                            <p>
+                                Find any service within minutes and know exactly what you’ll
+                                pay. No hourly rates, just a fixed price.
+                            </p>
+                        </div>
+                        <div class="work__left--content">
+                            <h5>
+                                <img src="./img/checkmark.0c8e7a1.svg" alt="checkmark" />
+                                Payment protection, guaranteed
+                            </h5>
+                            <p>
+                                Reach out to us at any time! We have your back, from answering
+                                your questions to resolving issues.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 work__right">
+                    <div class="work__right--content ">
+                        <img src="./img/1400-selling-proposition-2x.jpg" alt="" />
+                        <a class="single_image" href="img/campaign.mp4">
+                            <div class="playVideo">
+                                <img src="./img/desktop-play-button.c1196d6.png" alt="" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- MARKETPLACE -->
+    <section class="marketplace">
+        <div class="container-fluid">
+            <h4>Explore the marketplace</h4>
+            <div class="row">
+                <div class="col-6 col-md-3 marketplace__item">
+                    <a href="https://www.fiverr.com/categories/graphics-design?source=hplo_cat_sec&pos=1"
+                        target="_blank">
+                        <img src="./img/marketplace/graphics-design.d32a2f8.svg" alt="graphics">
+                        <p>Graphics & Design</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 marketplace__item">
+                    <a href="https://www.fiverr.com/categories/online-marketing?source=hplo_cat_sec&pos=2"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="./img/marketplace/online-marketing.74e221b.svg" alt="online-marketing">
+                        <p>Digital Marketing</p>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 marketplace__item">
+                    <a href="https://www.fiverr.com/categories/writing-translation?source=hplo_cat_sec&pos=3"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="./img/marketplace/writing-translation.32ebe2e.svg" alt="writing">
+                        <p>Writing & Translation</p>
+                    </a>
+
+                </div>
+                <div class="col-6 col-md-3 marketplace__item">
+                    <a href="https://www.fiverr.com/categories/video-animation?source=hplo_cat_sec&pos=4"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="./img/marketplace/video-animation.f0d9d71.svg" alt="video-animation">
+                        <p>Video & Animation</p>
+                    </a>
+
+                </div>
+                <div class="col-6 col-md-3 marketplace__item">
+                    <a href="https://www.fiverr.com/categories/music-audio?source=hplo_cat_sec&pos=5" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="./img/marketplace/music-audio.320af20.svg" alt="music-audio">
+                        <p>Music & Audio</p>
+                    </a>
+
+                </div>
+                <div class="col-6 col-md-3 marketplace__item">
+                    <a href="https://www.fiverr.com/categories/programming-tech?source=hplo_cat_sec&pos=6"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="./img/marketplace/programming.9362366.svg" alt="video-animation">
+                        <p>Programming & Tech</p>
+                    </a>
+
+                </div>
+                <div class="col-6 col-md-3 marketplace__item">
+                    <a href="https://www.fiverr.com/categories/business?source=hplo_cat_sec&pos=7" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="./img/marketplace/business.bbdf319.svg" alt="video-animation">
+                        <p>Business</p>
+                    </a>
+
+                </div>
+                <div class="col-6 col-md-3 marketplace__item">
+                    <a href="https://www.fiverr.com/categories/lifestyle?source=hplo_cat_sec&pos=8" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="./img/marketplace/lifestyle.745b575.svg" alt="video-animation">
+                        <p>Lifestyle</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects">
+        <div class="container-fluid">
+            <h4>Get inspired with projects made by our freelancers</h4>
+            <div class="owl-carousel owl-theme projects__carousel">
+                <div class="item projects__item">
+                    <a href="https://www.fiverr.com/mijalzagier/design-a-stunning-label-and-packaging?source=hplo_made_on_fiverr&pos=8"
+                        target="_blank">
+                        <img src="./img/mijalzagier.png" alt="evelinaro" />
+                        <div class="services__item-content">
+                            <img src="./img/avata/8.jpg" alt="">
+                            <p><b>Packaging Design</b><br>by <i>mijalzagier</i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item projects__item">
+                    <a href="https://www.fiverr.com/designerheather/create-the-perfect-print-artwork-for-you-or-your-business?source=hplo_made_on_fiverr&pos=2"
+                        target="_blank">
+                        <img src="./img/designerheather.jpg" alt="designerheather" />
+                        <div class="services__item-content">
+                            <img src="./img/avata/2.jpg" alt="">
+                            <p><b>Brochure Design</b><br>by <i>Brochure Design</i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item projects__item">
+                    <a href="https://www.fiverr.com/digitalgeria/create-a-brand-guidelines-manual-and-brand-book?source=hplo_made_on_fiverr&pos=3"
+                        target="_blank">
+                        <img src="./img/digitalgeria.jpg" alt="digitalgeria" />
+                        <div class="services__item-content">
+                            <img src="./img/avata/3.png" alt="">
+                            <p><b>Brand Style Guides</b><br>by <i>digitalgeria</i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item projects__item">
+                    <a href="https://www.fiverr.com/vnuggz/design-album-or-single-cover?source=hplo_made_on_fiverr&pos=4"
+                        target="_blank">
+                        <img src="./img/vnuggz.jpg" alt="vnuggz" />
+                        <div class="services__item-content">
+                            <img src="./img/avata/4.jpg" alt="">
+                            <p><b>Book & Album Covers</b><br>by <i>vnuggz</i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item projects__item">
+                    <a href="https://www.fiverr.com/evelinaro/design-logo-and-visual-identification-for-modern-brands?source=hplo_made_on_fiverr&pos=5"
+                        target="_blank">
+                        <img src="./img/evelinaro.jpg" alt="evelinaro" />
+                        <div class="services__item-content">
+                            <img src="./img/avata/5.jpeg" alt="">
+                            <p><b>Logo Design</b><br>by <i>evelinaro</i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item projects__item">
+                    <a href="https://www.fiverr.com/niccoffman/design-your-businesses-logo-and-branding?source=hplo_made_on_fiverr&pos=6"
+                        target="_blank">
+                        <img src="./img/niccoffman.jpg" alt="evelinaro" />
+                        <div class="services__item-content">
+                            <img src="./img/avata/6.jpg" alt="">
+                            <p><b>Logo Design</b><br>by <i>niccoffman</i></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item projects__item">
+                    <a href="https://www.fiverr.com/paudmartins/create-a-great-design-for-mobile-app-ui?source=hplo_made_on_fiverr&pos=7"
+                        target="_blank">
+                        <img src="./img/paudmartins.jpg" alt="evelinaro" />
+                        <div class="services__item-content">
+                            <img src="./img/avata/7.jpg" alt="">
+                            <p><b>Web & Mobile Design</b><br>by <i>paudmartins</i></p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="item projects__item">
+                    <a href="https://www.fiverr.com/artsi3d/make-3d-game-model-for-aaa-games-with-pbr?source=hplo_made_on_fiverr&pos=1"
+                        target="_blank">
+                        <img src="./img/artsi3d.jpg" alt="artsi3d" />
+                        <div class="services__item-content">
+                            <img src="./img/avata/1.jpg" alt="">
+                            <p><b>3D Models & Product Design</b><br>by <i>artsi3d</i></p>
+                            <p></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEEDBACKS -->
+    <div class="feedbacks">
+        <div class="container-fluid">
+            <section class="feedbacks__content">
+                <div class="owl-carousel owl-theme">
+                    <div class="item feedbacks__item row">
+                        <div class="col-12 col-lg-5">
+                            <div class="feedbacks__item--left">
+                                <a class="single_image" href="./img/Haerfest.mp4">
+                                    <img src="./img/1440-haerfest-2x.jpg" alt="">
+                                    <div class="playVideo">
+                                        <img src="./img/desktop-play-button.c1196d6.png" alt="" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-lg-7 d-flex align-items-center">
+                            <div class="feedbacks__item--right">
+                                <p>"Being a small but growing brand, we have to definitely do a lot more with less. And
+                                    when you want to create a business bigger than yourself, you’re going to need help.
+                                    And that’s what Fiverr does"</p>
+                                <span>Tim and Dan Joo, Co-founders</span>
+                                <img src="./img/haerfest-logo.b61e58b.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item feedbacks__item row">
+                        <div class="col-12 col-lg-5">
+                            <a class="single_image" href="./img/appsFlyer.mp4">
+                                <img src="./img/1440-appsflyer-2x.jpg" alt="">
+                                <div class="playVideo">
+                                    <img src="./img/desktop-play-button.c1196d6.png" alt="" />
+                                </div>
+                            </a>
+                        </div>
+                        <div class=" col-12 col-lg-7 d-flex align-items-center">
+                            <div class="feedbacks__item--right">
+                                <p>"When I use Fiverr, I don’t have to go through the hassle of contracts, negotiations,
+                                    logistics and financials. Fiverr takes away the risk of working with the wrong
+                                    freelancer."</p>
+                                <span>Karen Cohen, Global Product Marketing Manager</span>
+                                <img src="./img/appsflyer-logo.fcef98e.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+
+    <!-- BANNER -->
+    <section class="banner container-fluid">
+
+        <div class="banner__background row">
+            <div class="banner__content col-12 col-sm-10 col-md-8 col-lg-5">
+                <span>Try <img src="./img/pro-logo.2b919ef.svg" alt=""></span>
+                <h3 class="display-3">Unrivaled experts, trusted by the world's biggest brands</h3>
+                <a class="button--transparent_green" href="https://www.fiverr.com/pro?source=hplo_banner_pro"
+                    target="_blank">Explore Pro Services</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- BUSINESS -->
+    <section class="business">
+        <div class="container-fluid">
+            <div class="business__content row">
+                <div class="col-12 col-lg-6 d-flex align-items-center">
+                    <div class="business__left">
+                        <h4>Give your business the right tools</h4>
+                        <div class="business__left--content">
+                            <h5>
+                                <img src="./img/checkmark.0c8e7a1.svg" alt="checkmark" />
+                                Full transparency
+                            </h5>
+                            <p>
+                                A new shared dashboard allows you to track your team's activity, so that everyone is
+                                always in sync.
+                            </p>
+                        </div>
+                        <div class="business__left--content">
+                            <h5>
+                                <img src="./img/checkmark.0c8e7a1.svg" alt="checkmark" />
+                                VIP customer support
+                            </h5>
+                            <p>
+                                Quick response time and upgraded support solutions will help you to get what you
+                                need, when you need it.
+                            </p>
+                        </div>
+                        <div class="business__left--content">
+                            <h5>
+                                <img src="./img/checkmark.0c8e7a1.svg" alt="checkmark" />
+                                Improved billing options
+                            </h5>
+                            <p>
+                                One team - one payment method. You can now add a card on file that every team member
+                                can use.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="business__right">
+                        <img src="./img/ipadX2.gif" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GUIDES -->
+    <section class="guides">
+        <div class="container-fluid">
+            <div class="guides__content">
+                <h4>Fiverr guides</h4>
+                <div class="row">
+                    <div class="col-12 col-lg-4 ">
+                        <div class="guides__item">
+                            <a href="https://www.fiverr.com/resources/guides/business/start-online-business-and-work-from-home"
+                            target="_blank">
+                            <img src="./img/1440-create-website-2x.jpg" alt="">
+                            <div class="guides__item-caption">
+                                <h6>Start an online business and work from home</h6>
+                                <p>A complete guide to starting a small business online</p>
+                            </div>
+                        </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-12 col-lg-4 ">
+                        <div class="guides__item">
+                            <a href="https://www.fiverr.com/resources/guides/digital-marketing/what-is-digital-marketing"
+                            target="_blank">
+                            <img src="./img/1440-digital-marketing-2x.jpg" alt="">
+                            <div class="guides__item-caption">
+                                <h6>Digital marketing made easy</h6>
+                                <p>A practical guide to understand what is digital marketing</p>
+                            </div>
+                        </a>
+                        </div>
+                        
+                    </div>
+                    <div class="col-12 col-lg-4 ">
+                        <div class="guides__item">
+                            <a href="https://www.fiverr.com/resources/guides/graphic-design/how-to-create-business-logo"
+                            target="_blank">
+                            <img src="./img/1440-strong-brand-2x.jpg" alt="">
+                            <div class="guides__item-caption">
+                                <h6>Create a logo for your business</h6>
+                                <p>A step-by-step guide to create a memorable business logo</p>
+                            </div>
+                        </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <a class="seeMore" href="https://www.fiverr.com/resources/guides" target="_blank">See More Guides ></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GET STARTED -->
+    <section class="getStarted">
+        <div class="container-fluid">
+            <div class="getStarted__background">
+                <div class="getStarted__content">
+                    <h2>Find freelance services for your business today</h2>
+                    <p>We've got you covered for all your business needs</p>
+                    <a class="button--green" href="https://www.fiverr.com/join?source=hplo_get_started"
+                        target="_blank">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="footer__content">
+                <div class="row footer__top">
+                    <div class="col-0 col-md-0 col-lg-1"></div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 footer__top--item">
+                        <h6 class="text-display 7">Categories</h6>
+                        <ul>
+                            <li><a href="https://www.fiverr.com/categories/graphics-design" target="_blank">Graphics &
+                                    Design</a></li>
+                            <li><a href="https://www.fiverr.com/categories/online-marketing" target="_blank">Digital
+                                    Marketing</a></li>
+                            <li><a href="https://www.fiverr.com/categories/writing-translation" target="_blank">Writing
+                                    & Translation</a></li>
+                            <li><a href="https://www.fiverr.com/categories/video-animation" target="_blank">Video &
+                                    Animation</a></li>
+                            <li><a href="https://www.fiverr.com/categories/music-audio" target="_blank">Music &
+                                    Audio</a></li>
+                            <li><a href="https://www.fiverr.com/categories/programming-tech" target="_blank">Programming
+                                    & Tech</a></li>
+                            <li><a href="https://www.fiverr.com/categories/business" target="_blank">Business</a></li>
+                            <li><a href="https://www.fiverr.com/categories/lifestyle" target="_blank">Lifestyle</a></li>
+                            <li><a href="https://www.fiverr.com/categories?source=footer" target="_blank">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 footer__top--item">
+                        <h6 class="text-display 7">About</h6>
+                        <ul>
+                            <li><a href="https://www.fiverr.com/jobs?source=footer" target="_blank">Careers</a></li>
+                            <li><a href="https://www.fiverr.com/news/press-releases?source=footer" target="_blank">Press
+                                    & News</a></li>
+                            <li><a href="https://www.fiverr.com/partnerships?source=footer"
+                                    target="_blank">Partnerships</a></li>
+                            <li><a href="https://www.fiverr.com/privacy-policy?source=footer" target="_blank">Privacy
+                                    Policy</a></li>
+                            <li><a href="https://www.fiverr.com/terms_of_service?source=footer" target="_blank">Terms of
+                                    Service</a></li>
+                            <li><a href="https://www.fiverr.com/intellectual-property?source=footer"
+                                    target="_blank">Intellectual Property Claims</a></li>
+                            <li><a href="https://investors.fiverr.com/investor-overview/default.aspx"
+                                    target="_blank">Investor Relations</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 footer__top--item">
+                        <h6 class="text-display 7">Support</h6>
+                        <ul>
+                            <li><a href="https://www.fiverr.com/support" target="_blank">Help & Support</a></li>
+                            <li><a href="https://www.fiverr.com/trust_safety?source=footer" target="_blank">Trust &
+                                    Safety</a></li>
+                            <li><a href="https://sellers.fiverr.com/en/article/how-to-start-selling-on-fiverr"
+                                    target="_blank">Selling on Fiverr</a></li>
+                            <li><a href="https://www.fiverr.com/pages/howtofindafreelancer?cms=lunar&show_join=true&source=footer"
+                                    target="_blank">Buying on Fiverr</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 footer__top--item">
+                        <h6 class="text-display 7">Community</h6>
+                        <ul>
+                            <li><a href="https://events.fiverr.com/" target="_blank">Events</a></li>
+                            <li><a href="https://blog.fiverr.com/?utm_source=fiverr&utm_medium=website"
+                                    target="_blank">Blog</a></li>
+                            <li><a href="http://forum.fiverr.com/?utm_source=fiverr&utm_medium=website"
+                                    target="_blank">Forum</a></li>
+                            <li><a href="https://www.fiverr.com/community/standards?source=footer"
+                                    target="_blank">Community Standards</a></li>
+                            <li><a href="https://podfollow.com/ninetwentynine" target="_blank">Podcast</a></li>
+                            <li><a href="https://affiliates.fiverr.com/" target="_blank">Affiliates</a></li>
+                            <li><a href="https://www.fiverr.com/referral_program?source=footer" target="_blank">Invite a
+                                    Friend</a></li>
+                            <li><a href="https://www.fiverr.com/start_selling?source=footer" target="_blank">Become a
+                                    Seller</a></li>
+                            <li><a href="https://elevate.fiverr.com/?utm_source=fiverr" target="_blank">Fiverr
+                                    Elevate<br><small>Exclusive Benefits</small></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2 footer__top--item">
+                        <h6 class="text-display 7">More From Fiverr</h6>
+                        <ul>
+                            <li><a href="https://www.fiverr.com/business_workspace/landing_page" target="_blank">Fiverr
+                                    Business</a></li>
+                            <li><a href="https://www.fiverr.com/pro?source=footer" target="_blank">Fiverr Pro</a></li>
+                            <li><a href="https://www.fiverr.com/studios?source=footer" target="_blank">Fiverr
+                                    Studios</a></li>
+                            <li><a href="https://www.fiverr.com/logo-maker?source=footer" target="_blank">Fiverr Logo
+                                    Maker</a></li>
+                            <li><a href="https://www.fiverr.com/resources/guides?source=footer">Fiverr Guides</a></li>
+                            <li><a href="https://discover.fiverr.com/?utm_source=fiverr&utm_medium=link&utm_content=footer_link"
+                                    target="_blank">Get Inspired</a></li>
+
+                            <li><a href="https://www.clearvoice.com/" target="_blank">ClearVoice<br><small>Content
+                                        Marketing</small></a></li>
+                            <li><a href="https://www.and.co/" target="_blank">AND CO<br><small>Invoice
+                                        Software</small></a></li>
+                            <li><a href="https://learn.fiverr.com/" target="_blank">Learn<br><small>Online
+                                        Courses</small></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-0 col-md-0 col-lg-1"></div>
+                </div>
+                <div class="row footer__bottom align-items-center">
+                    <div class="col-12 col-md-4 ">
+                        <div class="footer__bottom-left d-flex align-items-center">
+                            <a href="#"><img src="./img/fiverr-vector-logo.svg" alt=""></a>
+                            <span>© Fiverr International Ltd. 2020</span>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-8 pr-0">
+                        <ul class="d-flex footer__bottom-right align-items-center">
+                            <li><a href="https://twitter.com/fiverr" target="_blank"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/fiverr" target="_blank"><i
+                                        class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/fiverr-com" target="_blank"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="https://www.pinterest.com/fiverr/" target="_blank"><i
+                                        class="fab fa-pinterest-p"></i></a></li>
+                            <li><a href="https://instagram.com/fiverr" target="_blank"><i
+                                        class="fab fa-instagram"></i></a></li>
+                            <li>
+                                <i class="fa fa-globe"></i>
+                                <span>English</span>
+                            </li>
+                            <li>$USD</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- JQUERY JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <!-- Owl carousel js -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $(".header__carousel .owl-carousel").owlCarousel({
+            loop: true,
+            margin: 200,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            animateOut: "fadeOut",
+            animateIn: "fadeIn",
+            responsive: {
+                0: {
+                    items: 1,
+                },
+            },
+        });
+
+        $(".services .owl-carousel").owlCarousel({
+            loop: true,
+            margin: 32,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                640: {
+                    items: 2
+                },
+                820: {
+                    items: 3
+                },
+                1100: {
+                    items: 4
+                },
+                1300: {
+                    items: 5
+                },
+            },
+        });
+
+        $(".projects .owl-carousel").owlCarousel({
+            loop: true,
+            margin: 32,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                640: {
+                    items: 2
+                },
+                820: {
+                    items: 3
+                },
+                1100: {
+                    items: 4
+                },
+                1300: {
+                    items: 4
+                },
+            },
+        });
+
+        $(".feedbacks .owl-carousel").owlCarousel({
+            loop: true,
+            margin: 32,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                }
+            },
+        });
+    </script>
+
+    <!-- fancybox js -->
+    <script type="text/javascript" src="./js/jquery.fancybox.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            /* This is basic - uses default settings */
+
+            $("a.single_image").fancybox();
+
+            /* Using custom settings */
+
+            $("a#inline").fancybox({
+                hideOnContentClick: true,
+            });
+        });
+    </script>
+
+    <!-- main JS -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

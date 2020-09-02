@@ -1,0 +1,79 @@
+.footer {
+    padding-top: 64px;
+    border-top: 1px solid $color-gray-6;
+    .footer__content {
+        max-width: 90%;
+        margin: 0 auto;
+        .footer__top {
+            .footer__top--item {
+                h6 {
+                    padding-bottom: 20px;
+                }
+                ul {
+                    list-style: none;
+                    li {
+                        padding-bottom: 16px;
+                        a {
+                            color: #7a7d85;
+                        }
+                    }
+                }
+            }
+        }
+        .footer__bottom {
+            border-top: 1px solid $color-gray-6;
+            .footer__bottom-left {
+                img {
+                    padding-right: 20px;
+                    cursor: pointer;
+                }
+                span {
+                    color: $color-gray-8;
+                    white-space: nowrap;
+                }
+            }
+            .footer__bottom-right {
+                justify-content: flex-end;
+                list-style: none;
+                margin-bottom: 0;
+                li {
+                    padding: 20px;
+                    font-size: 14px;
+                    cursor: pointer;
+                    a {
+                        color: #62646a;
+                        text-decoration: none;
+                        font-size: 18px;
+                    }
+
+                    &:last-child {
+                        padding-right: 0;
+                    }
+                }
+            }
+        }
+        @include responsive("extra-large") {
+            width: 92%;
+        }
+        @include responsive("large") {
+            width: 95%;
+            margin: 0 auto;
+            .footer__bottom {
+                .footer__bottom-right {
+                    li {
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+        @include responsive("small-medium") {
+            .footer__bottom{
+                .footer__bottom-left, .footer__bottom-right {
+                    margin-top: 15px;
+                    justify-content: start;
+                }
+            }
+        }
+    }
+    
+}

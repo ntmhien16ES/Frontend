@@ -1,0 +1,43 @@
+.getStarted {
+    max-width: 90%;
+    margin: 0 auto 120px;
+
+    .getStarted__background {
+        background-image: url(../img/1440-cta2x.jpg);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .getStarted__content {
+            padding: 48px;
+            text-align: center;
+            h2 {
+                font-size: 26px;
+                line-height: 38px;
+                color: $color-gray-2;
+                margin: 0;
+            }
+            p {
+                padding: 12px 0 32px;
+                margin: 0;
+            }
+            a {
+                text-decoration: none;
+                border-radius: 4px;
+                padding: 12px 24px;
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+
+    }
+    @include responsive("extra-large") {
+        width: 92%;
+      }
+      @include responsive("large") {
+        width: 95%;
+        margin-bottom: 80px;
+      }
+}

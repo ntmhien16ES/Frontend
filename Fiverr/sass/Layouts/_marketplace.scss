@@ -1,0 +1,48 @@
+.marketplace {
+  width: 90%;
+  margin: 0 auto 120px;
+  h4 {
+    @extend %sectionTitle;
+    margin-bottom: 40px;
+  }
+  .marketplace__item {
+    text-align: center;
+    position: relative;
+    padding-bottom: 55px;
+    a {
+      color: #222325;
+      text-decoration: none;
+      img {
+        width: 48px;
+        margin-bottom: 15px;
+      }
+      p {
+        margin-bottom: 0;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        top: 45px;
+        right: 50%;
+        transform: translateX(50%);
+        width: 48px;
+        // height: 5px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #c5c6c9;
+        z-index: 10;
+        transition: all 0.3s;
+      }
+      &:hover::after {
+        width: 88px;
+        border-color: #1dbf73;
+      }
+    }
+  }
+  @include responsive("extra-large") {
+    width: 92%;
+  }
+  @include responsive("large") {
+    width: 95%;
+    margin-bottom: 40px;
+  }
+}

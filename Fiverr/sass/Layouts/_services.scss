@@ -1,0 +1,38 @@
+.services {
+  width: 90%;
+  margin: 0 auto 120px;
+  h4 {
+    @extend %sectionTitle;
+  }
+  .services__item {
+    position: relative;
+
+    img {
+      height: 100%;
+      &:hover {
+        opacity: 0.85;
+      }
+    }
+    .services__item-content {
+      position: absolute;
+      padding: 15px;
+      top: 0;
+      left: 0;
+      color: $color-white;
+      p {
+        margin: 0;
+      }
+      h5 {
+        font-size: 22px;
+        font-weight: 700;
+      }
+    }
+  }
+  @include responsive("extra-large") {
+    width: 92%;
+  }
+  @include responsive("large") {
+    width: 95%;
+    margin-bottom: 80px;
+  }
+}
