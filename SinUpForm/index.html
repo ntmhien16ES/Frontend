@@ -1,0 +1,82 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>ĐĂNG KÝ | CYBERLEARN</title>
+  </head>
+  <body>
+    <div class="container" style="margin-top: 100px;">
+      
+      <div class="row w-75 mx-auto" >
+        <h1>ĐĂNG KÝ</h1>
+        <form class="col-12" id="myForm" novalidate>
+
+          <div class="row mb-0">
+
+            <div class="input-field col s6">
+              <label for="firstName">Họ</label>
+              <input type="text" name="Họ" id="firstName" name="firstName"/>
+              <span class="text-danger" id="errorMess_firstName" style="opacity: 0;">123</span>
+            </div>
+
+            <div class="input-field col s6">
+              <label for="lastName">Tên</label>
+              <input type="text" name="Tên" id="lastName"/>
+              <span class="text-danger" id="errorMess_lastName" style="opacity: 0;">123</span>
+            </div>
+
+          </div>
+
+          <div class="row mb-0">
+
+            <div class="input-field col s6">
+              <label for="password">Mật khẩu</label>
+              <input type="password" name="Mật khẩu" id="password" minlength="6" maxlength="32"/>
+              <span class="text-danger" id="errorMess_password" style="opacity: 0;">123</span>
+            </div>
+
+            <div class="input-field col s6">
+              <label for="confirmPassword">Xác nhận mật khẩu</label>
+              <input type="password" name="Xác nhận mật khẩu" id="confirmPassword"/>
+              <span class="text-danger" id="errorMess_confirmPassword" style="opacity: 0;">123</span>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="input-field col s6">
+              <label for="phone">Phone</label>
+              <input type="text" name="Số điện thoại" id="phone"/>
+              <span class="text-danger" id="errorMess_phone" style="opacity: 0;">123</span>
+            </div>
+
+            <div class="input-field col s6">
+              <label for="email">Email</label>
+              <input type="email" name="Email" id="email"/>
+              <span class="text-danger" id="errorMess_email" style="opacity: 0;">123</span>
+            </div>
+
+          </div>
+
+          <button id="btnDangKy" class="btn btn-danger waves-effect waves-light" type="submit">
+            ĐĂNG KÝ NGAY
+          </button>
+
+        </form>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
